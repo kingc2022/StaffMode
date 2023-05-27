@@ -1,0 +1,33 @@
+name: StaffMode
+version: 1.0
+author: kingc
+main: me.kingc.staffmode.StaffMode
+api-version: 1.19
+
+commands:
+  staff:
+    description: 插件主指令
+
+
+permissions:
+  staffmode.start:
+    description: 进入 StaffMode
+    default: op
+  staffmode.stop:
+    description: 退出 StaffMode
+    default: op
+  staffmode.help:
+    description: 显示帮助菜单
+    default: op
+  staffmode.hide:
+    description: 开启隐身模式
+    default: op
+  staffmode.show:
+    description: 退出隐身模式
+    default: op
+  staffmode.freeze:
+    description: 冻结玩家，让其无法移动
+    default: op
+  staffmode.unfreeze:
+    description: 取消冻结玩家，让其可以移动
+    default: op
